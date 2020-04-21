@@ -1,18 +1,5 @@
 // https://www.interviewbit.com/problems/least-common-ancestor/
 
-/**
- * Definition for binary tree
- * class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) {
- *      val = x;
- *      left=null;
- *      right=null;
- *     }
- * }
- */
 public class Solution {
     public int lca(TreeNode A, int B, int C) {
         int[] found = new int[1];
