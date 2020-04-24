@@ -11,7 +11,7 @@ public class Solution {
         // Move to one node behind mth node
         for(int i=1; i<m; i++) iter = iter.next;
         
-        ListNode start = iter.next; //Start of sub list
+        ListNode start = iter.next; //Start of sub list (mth node)
         
         ListNode curr = start; 
         ListNode prev = start;
