@@ -19,5 +19,6 @@ public class Solution {
         }
         prev.next = null;
         return start.next;
+        
     }
 }
