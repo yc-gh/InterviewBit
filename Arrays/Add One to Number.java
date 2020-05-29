@@ -3,9 +3,9 @@
 public class Solution {
     public int[] plusOne(int[] digits) {
         int n = digits.length;
-        int j=0;
         if(digits[0]==0)
         {
+            int j=0;
             while(j<n && digits[j]==0) j++; 
             digits = Arrays.copyOfRange(digits,j,n);
             n = digits.length;
