@@ -1,4 +1,4 @@
-//
+//https://www.interviewbit.com/problems/sum-of-pairwise-hamming-distance/
 
 public class Solution {
     // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
