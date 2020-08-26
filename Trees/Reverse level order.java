@@ -9,11 +9,10 @@ public class Solution {
         
         while(!queue.isEmpty())
         {
-            int size = queue.size();
-                TreeNode front = queue.poll();
-                res.add(front.val);
-                if(front.right!=null) queue.offer(front.right);
-                if(front.left!=null) queue.offer(front.left);
+            TreeNode front = queue.poll();
+            res.add(front.val);
+            if(front.right!=null) queue.offer(front.right);
+            if(front.left!=null) queue.offer(front.left);
         }
         
         Collections.reverse(res);
